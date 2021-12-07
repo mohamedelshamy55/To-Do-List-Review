@@ -31,7 +31,7 @@ class TodoList {
         todos.innerHTML = htmlCode;
 
         document.querySelectorAll('#boxes').forEach((item) => {
-            item.addEventListener('change', () => {
+          item.addEventListener('change', () => {
                 checkBoxEvent(item);
             });
         });

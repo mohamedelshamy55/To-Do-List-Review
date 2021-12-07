@@ -11,7 +11,7 @@ const inputField = document.getElementById('input-field');
 
 class TodoList {
     constructor() {
-        this.list = [];
+      this.list = [];
     }
 
     static displayTodo = () => {
